@@ -1,15 +1,19 @@
 import React from 'react';
 import VoiceButton from './components/VoiceButton';
-import FileUploader from './components/FileUploader';
-import HistoryPanel from './components/HistoryPanel';
+import ExcelReader from './components/ExcelReader';
+import ChatGPTPanel from './components/ChatGPTPanel';
+import WebReader from './components/WebReader';
+import MemoryPanel from './components/MemoryPanel';
 
 function App() {
   return (
     <div style={styles.container}>
       <h1 style={styles.header}>🤖 اردشیر</h1>
       <VoiceButton />
-      <FileUploader />
-      <HistoryPanel />
+      <ExcelReader />
+      <ChatGPTPanel />
+      <MemoryPanel />
+      <WebReader />
     </div>
   );
 }
